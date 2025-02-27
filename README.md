@@ -88,12 +88,12 @@ dokter-cilik-virtual/
 └── README.md
 ```
 
-##Konfigurasi
+## Konfigurasi
 File cfg/config.yaml berisi konfigurasi penting seperti:
 
-*Model yang digunakan untuk training dan embedding
-*Parameter tokenisasi (MAX_LENGTH, STRIDE, dsb.)
-*Nama dataset (misalnya data/train.json dan data/validation.json)
-*Nama kolom embedding (misalnya question_embedding atau context_embedding)
-*Parameter lain seperti TOP_K untuk pencarian FAISS
-*Pastikan file ini telah disesuaikan sebelum melakukan training dan indexing.
+- Model yang digunakan untuk training dan embedding
+- Parameter tokenisasi (MAX_LENGTH, STRIDE, dsb.)
+- Nama dataset (misalnya data/train.json dan data/validation.json)
+- Nama kolom embedding (misalnya question_embedding atau context_embedding)
+- Parameter lain seperti TOP_K untuk pencarian FAISS
+- Pastikan file ini telah disesuaikan sebelum melakukan training dan indexing.
