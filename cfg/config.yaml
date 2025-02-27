@@ -1,0 +1,12 @@
+Config:
+  MODEL_NAME: "distilbert-base-uncased"
+  MAX_LENGTH: 384
+  STRIDE: 128
+  DATASET_NAME: "data/train.json"
+  VALIDATION_DATASET_NAME: "data/validation.json"
+  N_BEST: 20
+  MAX_ANS_LENGTH: 30
+  EMBEDDING_COLUMN: "question_embedding"
+  PIPELINE_NAME: "question-answering"
+  FINETUNED_MODEL_NAME: "distilbert-finetuned-squadv2"
+  TOP_K: 5
