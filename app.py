@@ -1,3 +1,6 @@
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 import streamlit as st
 # Set konfigurasi halaman streamlit dengan layout wide
 st.set_page_config(layout="wide")
